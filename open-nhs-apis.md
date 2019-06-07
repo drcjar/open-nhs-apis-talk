@@ -25,6 +25,10 @@ No one organisation (or individual) owns all the talent. Being (selectively) ope
 
 Open API standards can help to lower barrier to entry (contributing), lowering costs. They can also improve interoperability. More hygenic / scalable design practice? Modularity is good.
 
+## Are SDOs are friends?
+
+Standards devlelopment organizations are not our unqualified friends. Standard setting is a key part of modern business strategy, the stakes are high, it's a warzone. Basic checks that it's open. Reminder that open source still matters. 
+
 ## The pubmed API
 
 overview of the api
