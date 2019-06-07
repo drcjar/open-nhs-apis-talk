@@ -38,3 +38,7 @@ https://github.com/drcjar/litsearch
 ## FHIR and e.g prescriptions
 
 not really ready yet / widely used? 
+
+## Conclusion and what's coming next
+
+Open API standards are an important piece of the puzzle for moder digital health services. Next up XYZ.
