@@ -29,7 +29,7 @@ Open API standards can help to lower barrier to entry (contributing), lowering c
 
 Open APIs stop the NHS from getting locked in to monopolies. Anyone can supply software that reads and produces data in an open standard.
 
-## Are SDOs are friends?
+## Are SDOs our friends?
 
 Standards devlelopment organizations are not our unqualified friends. Standard setting is a key part of modern business strategy, the stakes are high, it's a warzone. Basic checks that it's open. Reminder that open source still matters. 
 
