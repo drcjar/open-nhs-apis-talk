@@ -4,9 +4,9 @@ Carl Reynolds and Terence Eden
 
 ## Background - what did the internet ever do for us anyway?
 
-The Internet provides unparalleled opportunity for the efficient matching of skills to tasks ("work").
+The Internet provides unparalleled opportunity for the efficient matching of skills to tasks ("work"). 
 
-Internet works on "rough consensus and running code".  If we all speak (roughly) the same language, we can accomplish great things.
+Internet works on "rough consensus and running code". If we all speak (roughly) the same language, we can accomplish great things.
 
 ## How does that work?
 
