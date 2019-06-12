@@ -2,11 +2,21 @@
 
 Carl Reynolds and Terence Eden
 
-## Background - what did the internet ever do for us anyway?
+## Stories from the front line
 
-The Internet provides unparalleled opportunity for the efficient matching of skills to tasks ("work").
+1. every day blues
+2. can't see the xray
+3. can't see the imporant recent test
 
-Internet works on "rough consensus and running code".  If we all speak (roughly) the same language, we can accomplish great things.
+## What problems do we need to solve in NHS IT anyway?
+
+Monopolies. Broken markets. Dysfunctional UIs. No ability to make improvements to software used. Fragmented and siloed data. In some respects, the opposite of like on the internet...
+
+## What did the internet ever do for us anyway?
+
+The Internet provides unparalleled opportunity for the efficient matching of skills to tasks ("work"). 
+
+Internet works on "rough consensus and running code". If we all speak (roughly) the same language, we can accomplish great things.
 
 ## How does that work?
 
