@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <title></title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="reveal.js/css/reveal.css">
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="reveal.js/css/theme/black.css" id="theme">
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal.js/css/print/pdf.css' : 'reveal.js/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+
+<section id="a-doctor-and-a-geek-perspective-why-open-api-standards-in-the-nhs-matter" class="slide level1">
+<h1>A doctor and a geek perspective: Why Open API Standards in the NHS matter</h1>
+<p>Carl Reynolds and Terence Eden</p>
+<h2 id="background---what-did-the-internet-ever-do-for-us-anyway">Background - what did the internet ever do for us anyway?</h2>
+<p>The Internet provides unparalleled opportunity for the efficient matching of skills to tasks (&quot;work&quot;).</p>
+<p>Internet works on &quot;rough consensus and running code&quot;. If we all speak (roughly) the same language, we can accomplish great things.</p>
+<h2 id="how-does-that-work">How does that work?</h2>
+<p>By making it easier for people to connect; reduces organisational, geographic and fianancial barriers; there's a big pool of people on the internet with a plurality of skill and motivation; they can find work they're a good match for or start their own for a low marginal cost.</p>
+<h2 id="why-does-it-matter">Why does it matter?</h2>
+<p>No one organisation (or individual) owns all the talent. Being (selectively) open to contributions from a bigger pool of talent (people on the internet) results in better work. It's the open source model.</p>
+<h2 id="examples">Examples:</h2>
+<ul>
+<li>Android (based on Linux), the most popular smartphone operating system in the world</li>
+<li>Chrome, Firefox, and Safari, the three most popular web browsers in the world</li>
+<li>Python, R, Ruby, Java, four of the most popular programming languages in the world</li>
+<li>Twitter, reddit, linkedin, instagram, amazon - all built using open standards.</li>
+</ul>
+<h2 id="what-do-open-api-standards-have-to-do-with-the-price-of-cheese">What do Open API Standards have to do with the price of cheese?</h2>
+<p>Open API standards can help to lower barrier to entry (contributing), lowering costs. They can also improve interoperability. More hygenic / scalable design practice? Modularity is good.</p>
+<p>Open APIs stop the NHS from getting locked in to monopolies. Anyone can supply software that reads and produces data in an open standard.</p>
+<h2 id="are-sdos-our-friends">Are SDOs our friends?</h2>
+<p>Standards devlelopment organizations are not our unqualified friends. Standard setting is a key part of modern business strategy, the stakes are high, it's a warzone. Basic checks that it's open. Reminder that open source still matters.</p>
+<p>We have an extensive list of checks to make sure that standards meet our needs - https://www.gov.uk/government/publications/open-standards-principles/open-standards-principles</p>
+<h2 id="openapi-v3">OpenAPI v3</h2>
+<p>Formerly known as Swagger. A brilliant way to document APIs. Allows for rapid creation of code. Lets API designers understand what they're doing.</p>
+<h2 id="the-pubmed-api">The pubmed API</h2>
+<p>overview of the api https://www.ncbi.nlm.nih.gov/home/develop/api/</p>
+<p>it's mature, ready to build with / on today</p>
+<p>overview of what I used it for https://github.com/drcjar/litsearch</p>
+<h2 id="fhir-and-e.g-prescriptions">FHIR and e.g prescriptions</h2>
+<p>not really ready yet / widely used?</p>
+<h2 id="conclusion-and-whats-coming-next">Conclusion and what's coming next</h2>
+<p>Open API standards are an important piece of the puzzle for modern digital health services. Next up XYZ.</p>
+</section>
+    </div>
+  </div>
+
+  <script src="reveal.js/lib/js/head.min.js"></script>
+  <script src="reveal.js/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true },
+              { src: 'reveal.js/plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+    </body>
+</html>
