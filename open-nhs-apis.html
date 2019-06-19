@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Carl Reynolds and Terence Eden">
+  <meta name="dcterms.date" content="2019-06-19">
+  <title>Why Open API Standards in the NHS matter</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="reveal.js/css/reveal.css">
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="reveal.js/css/theme/black.css" id="theme">
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal.js/css/print/pdf.css' : 'reveal.js/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section>
+  <h1 class="title">Why Open API Standards in the NHS matter</h1>
+  <p class="author">Carl Reynolds and Terence Eden</p>
+  <p class="date">June 19, 2019</p>
+</section>
+
+<section id="section" class="slide level2" data-background="gyno-note.jpg" data-background-size="contain">
+<h2></h2>
+</section>
+<section id="things-are-harder-than-they-should-be-at-the-hospital" class="slide level2">
+<h2>Things are harder than they should be at the hospital</h2>
+</section>
+<section id="section-1" class="slide level2" data-background="ng-tube-incorrectly-placed.jpeg" data-background-size="contain">
+<h2></h2>
+</section>
+<section id="section-2" class="slide level2" data-background="bugs.png" data-background-size="contain">
+<h2></h2>
+</section>
+<section id="section-3" class="slide level2" data-background="ongoingproblems.png" data-background-size="contain">
+<h2></h2>
+</section>
+<section id="there-are-bugs-in-the-hospital-software-and-theyre-not-fixed-promptly.-this-is-bad." class="slide level2">
+<h2>There are bugs in the hospital software and they're not fixed promptly. This is bad.</h2>
+</section>
+<section id="section-4" class="slide level2" data-background="pneumoperitoneum.jpg" data-background-size="contain">
+<h2></h2>
+</section>
+<section id="its-not-good-enough-for-the-computers-not-to-talk-to-each-other-in-the-nhs." class="slide level2">
+<h2>It's not good enough for the computers not to talk to each other in the NHS.</h2>
+</section>
+<section id="section-5" class="slide level2">
+<h2></h2>
+<p>So why isn't NHS IT fixed yet? Monopolies/Broken culture/Broken markets? With no ability to make improvements to software used wonkiness persists. Shonky UIs, fragmented and siloed data etc. In some respects, it's the opposite of like on the internet...</p>
+</section>
+<section id="section-6" class="slide level2">
+<h2></h2>
+<p>Why is the internet so great? provides unparalleled opportunity for the efficient matching of skills to tasks (&quot;work&quot;). Works on &quot;rough consensus and running code&quot;. If we all speak (roughly) the same language, we can accomplish great things.</p>
+</section>
+<section id="section-7" class="slide level2">
+<h2></h2>
+<p>The internet makes it easier for people to connect; reduces organisational, geographic and fianancial barriers; big pool of people on the internet with a plurality of skill and motivation; they can find work they're a good match for or start their own for a low marginal cost.</p>
+</section>
+<section id="section-8" class="slide level2">
+<h2></h2>
+<p>No one organisation (or individual) owns all the talent. Being (selectively) open to contributions from a bigger pool of talent (people on the internet) results in better work. It's the open source model.</p>
+</section>
+<section id="section-9" class="slide level2">
+<h2></h2>
+<p>Examples</p>
+<ul>
+<li>Android (based on Linux), the most popular smartphone operating system in the world</li>
+<li>Chrome, Firefox, and Safari, the three most popular web browsers in the world</li>
+<li>Python, R, Ruby, Java, four of the most popular programming languages in the world</li>
+<li>Twitter, reddit, linkedin, instagram, amazon - all built using open standards.</li>
+</ul>
+</section>
+<section id="section-10" class="slide level2">
+<h2></h2>
+<p>What do Open API Standards have to do with the price of cheese?</p>
+<ul>
+<li>Open API standards can help to lower barrier to entry (contributing), lowering costs. They can also improve interoperability. More hygenic / scalable design practice? Modularity is good.</li>
+<li>Open APIs stop the NHS from getting locked in to monopolies. Anyone can supply software that reads and produces data in an open standard.</li>
+</ul>
+</section>
+<section id="section-11" class="slide level2">
+<h2></h2>
+<p>Are SDOs our friends?</p>
+<ul>
+<li>Standards devlelopment organizations are not our unqualified friends. Standard setting is a key part of modern business strategy, the stakes are high, it's a warzone. Basic checks that it's open. Reminder that open source still matters.</li>
+<li>We have an extensive list of checks to make sure that standards meet our needs - https://www.gov.uk/government/publications/open-standards-principles/open-standards-principles</li>
+</ul>
+</section>
+<section id="section-12" class="slide level2">
+<h2></h2>
+<p>OpenAPI v3</p>
+<p>Formerly known as Swagger. A brilliant way to document APIs. Allows for rapid creation of code. Lets API designers understand what they're doing.</p>
+</section>
+<section id="section-13" class="slide level2">
+<h2></h2>
+<p>The pubmed API</p>
+<ul>
+<li>overview of the api https://www.ncbi.nlm.nih.gov/home/develop/api/</li>
+<li>it's mature, ready to build with / on today</li>
+<li>overview of what I used it for https://github.com/drcjar/litsearch</li>
+</ul>
+</section>
+<section id="section-14" class="slide level2" data-background="fhir.jpg" data-background-size="contain">
+<h2></h2>
+</section>
+<section id="section-15" class="slide level2">
+<h2></h2>
+<p>FHIR and e.g prescriptions</p>
+<p>not really ready yet / widely used?</p>
+</section>
+<section id="section-16" class="slide level2">
+<h2></h2>
+<p>so there's plenty to be done in health and...</p>
+</section>
+<section id="section-17" class="slide level2">
+<h2></h2>
+<p>Open API standards are an important piece of the puzzle for modern digital health services</p>
+</section>
+<section id="section-18" class="slide level2">
+<h2></h2>
+<p>Next up Terence fixes all the things?</p>
+</section>
+<section id="section-19" class="slide level2">
+<h2></h2>
+<p>contact</p>
+<ul>
+<li>carlreynolds.net / <span class="citation" data-cites="drcjar">@drcjar</span> / drcjar@gmail.com</li>
+<li><span class="citation" data-cites="edent">@edent</span></li>
+</ul>
+</section>
+    </div>
+  </div>
+
+  <script src="reveal.js/lib/js/head.min.js"></script>
+  <script src="reveal.js/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true },
+              { src: 'reveal.js/plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+    </body>
+</html>
