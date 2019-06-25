@@ -91,10 +91,6 @@ Open API standards are an important piece of the puzzle for modern digital healt
 
 ## 
 
-Next up Terence fixes all the things?
-
-## 
-
 contact
 
 - carlreynolds.net / @drcjar / drcjar@gmail.com 
